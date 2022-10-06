@@ -64,8 +64,8 @@ const CreateAdModal = () => {
       <Dialog.Overlay className="bg-black/60 inset-0 fixed" />
 
       <Dialog.Content
-        className="w-[480px] fixed bg-[#2A2636] py-8 px-10 text-white top-1/2 left-1/2 
-        -translate-x-1/2 -translate-y-1/2 rounded-lg shadow-lg shadow-black/25"
+        className="min-w-xs sm:w-[480px] fixed bg-[#2A2636] p-4 sm:py-8 sm:px-10 text-white top-1/2 left-1/2 
+       -translate-x-1/2 -translate-y-1/2 rounded-lg shadow-lg shadow-black/25"
       >
         <Dialog.Title className="text-3xl font-black">
           Publique um anúncio
